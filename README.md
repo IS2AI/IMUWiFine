@@ -21,4 +21,6 @@ The dataset can be downloaded from issai.nu.edu.kz/imuwifine. The dataset consis
 
 # Training
 
-Before starting the training, please be sure to name the experiment in `train.py` ```python experiment = 'Name of the Experiment```, doing so will differentiate between instances of training.
+Before starting the training, please be sure to name the experiment in `train.py`, doing so will differentiate between instances of training.
+```python 
+  experiment = 'Name of the Experiment```
