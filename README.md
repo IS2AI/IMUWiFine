@@ -24,4 +24,5 @@ The dataset can be downloaded from issai.nu.edu.kz/imuwifine. The dataset consis
 Before starting the training, please be sure to name the experiment in `train.py`, doing so will differentiate between instances of training.
 ```python 
   experiment = 'Name of the Experiment'
-  ```
+```
+To train the model run `python train.py` inside IMUWiFine folder. 
