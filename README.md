@@ -1,7 +1,7 @@
 # IMUWiFine
 
 Indoor localization based on IMU and WiFi Signals. 
-
+The project aims to enhance the [WiFi based indoor localization](https://ieeexplore.ieee.org/document/9382623) with the signals from Inertial Measurement Units built-in smartphones. The detailed explanation can be found on paper [](). 
 
 # Setup and Requirements
 
@@ -25,4 +25,4 @@ Before starting the training, please be sure to name the experiment in `train.py
 ```python 
   experiment = 'Name of the Experiment'
 ```
-To train the model run `python train.py` inside IMUWiFine folder. 
+To train the model run `python train.py` inside IMUWiFine folder. Once the training finished, the script will automatically test the model on `testing set`. 
