@@ -1,7 +1,7 @@
 # IMUWiFine
 
 Indoor localization based on IMU and WiFi Signals. 
-The project aims to enhance the [WiFi based indoor localization](https://ieeexplore.ieee.org/document/9382623) with the signals from Inertial Measurement Units built-in smartphones. The detailed explanation can be found on paper [](). 
+The project aims to enhance the [WiFi based indoor localization](https://ieeexplore.ieee.org/document/9382623) with the signals from Inertial Measurement Units built-in in smartphones. The detailed explanation can be found on paper [](). 
 
 # Setup and Requirements
 
