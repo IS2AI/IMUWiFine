@@ -5,12 +5,12 @@ Indoor localization based on IMU and WiFi Signals.
 
 # Setup and Requirements
 
-Our models are developed using the Pytorch framework, please be sure to install the framework from https://pytorch.org/  
+Our models are developed using the Pytorch framework, please be sure to install the framework from official [Pytorch](https://pytorch.org/) page.  
 
 
 # Downloading the Dataset
 
-The dataset can be downloaded from issai.nu.edu.kz/imuwifine. The dataset consists of `train`, `test` and `validation` folders. The path to the downloaded folders should be specified in `train.py` 
+The dataset can be downloaded from [ISSAI](https://issai.nu.edu.kz/imuwifine). The dataset consists of `train`, `test` and `validation` folders. The path to the downloaded folders should be specified in `train.py` 
 
 ```python
   train_data_path = 'path to train folder'
