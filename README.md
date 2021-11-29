@@ -1,16 +1,19 @@
 # IMUWiFine
 
-Indoor localization based on IMU and WiFi Signals. 
-The project aims to enhance the [WiFi based indoor localization](https://ieeexplore.ieee.org/document/9382623) with the signals from Inertial Measurement Units built-in in smartphones. The detailed explanation can be found on paper [](). 
+This repository contains the source code for "End-to-End Sequential Indoor Localization Using Smartphone Inertial Sensors and WiFi" paper. 
+
+The source code implements the end-to-end sequential indoor localization architecture based on the stack of ReLU, LSTM, and regression layers.
+Proposed indoor localization architecture takes in WiFi received signal strength indicators (RSSI) and inertial mearurement unit (IMU) readings, and outputs estimated (*x*,*y*,*z*) position.
+The detailed description of the architecture is given in the paper. 
 
 # Setup and Requirements
 
-Our models are developed using the Pytorch framework, please be sure to install the framework from official [Pytorch](https://pytorch.org/) page.  
+Our code is based on PyTorch framework, please make sure to install the framework from the official [Pytorch](https://pytorch.org/) page.  
 
 
 # Downloading the Dataset
 
-The dataset can be downloaded from [ISSAI](https://issai.nu.edu.kz/imuwifine). The dataset consists of `train`, `test` and `validation` folders. The path to the downloaded folders should be specified in `train.py` 
+The dataset can be downloaded from [ISSAI](https://issai.nu.edu.kz/imuwifine). The dataset consists of `train`, `test` and `validation` folders. The paths to the downloaded folders should be specified in `train.py` 
 
 ```python
   train_data_path = 'path to train folder'
@@ -21,8 +24,8 @@ The dataset can be downloaded from [ISSAI](https://issai.nu.edu.kz/imuwifine). T
 
 # Training
 
-Before starting the training, please be sure to name the experiment in `train.py`, doing so will differentiate between instances of training.
+Before starting the training, please make sure to name the experiment in `train.py`, doing so will help to differentiate between different instances of training.
 ```python 
   experiment = 'Name of the Experiment'
 ```
-To train the model run `python train.py` inside IMUWiFine folder. Once the training finished, the script will automatically test the model on `testing set`. 
+To train a model run `python train.py` inside IMUWiFine folder. Upon completion of the training procedure, the script will automatically evaluate the model on the testing set. 
