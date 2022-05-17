@@ -29,3 +29,15 @@ Before starting the training, please make sure to name the experiment in `train.
   experiment = 'Name of the Experiment'
 ```
 To train a model run `python train.py` inside IMUWiFine folder. Upon completion of the training procedure, the script will automatically evaluate the model on the testing set. 
+
+
+# Citation
+```
+@INPROCEEDINGS{9708854,
+  author={Nurpeiissov, Mukhamet and Kuzdeuov, Askat and Assylkhanov, Aslan and Khassanov, Yerbolat and Varol, Huseyin Atakan},
+  booktitle={2022 IEEE/SICE International Symposium on System Integration (SII)}, 
+  title={End-to-End Sequential Indoor Localization Using Smartphone Inertial Sensors and WiFi}, 
+  year={2022},
+  pages={566-571},
+  doi={10.1109/SII52469.2022.9708854}}
+```
