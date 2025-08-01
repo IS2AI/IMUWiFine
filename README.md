@@ -13,7 +13,7 @@ Our code is based on PyTorch framework, please make sure to install the framewor
 
 # Downloading the Dataset
 
-The dataset can be downloaded from [ISSAI](https://issai.nu.edu.kz/imuwifine). The dataset consists of `train`, `test` and `validation` folders. The paths to the downloaded folders should be specified in `train.py` 
+The dataset can be downloaded from [ISSAI](https://huggingface.co/datasets/issai/IMUWiFine). The dataset consists of `train`, `test` and `validation` folders. The paths to the downloaded folders should be specified in `train.py` 
 
 ```python
   train_data_path = 'path to train folder'
